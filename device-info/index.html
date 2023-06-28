@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<Title>Info device CO2-meter-SCD41x in Brains4Buildings</Title>
+	<meta charset="UTF-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<style>
+		* {
+			font-family: 'Roboto', sans-serif;
+			font-size: 16px;
+			box-sizing: border-box;
+		}
+		html, body {
+			width: 100%;
+			height: 100%;
+			margin: 0;
+			padding: 0;
+			overflow-x: hidden;
+		}
+		h1, h2, h3 {
+			margin: 0;
+			padding: 0;
+		}
+		ul{
+		  margin-left:5px;
+		  padding-left:10px;
+		}
+		h1 { font-size: 40px; }
+		h2 { font-size: 26px; }
+		h3 { font-size: 20px; }
+		.page-header {
+			background: linear-gradient(to top right, #d5e05b, #b1d249, #45b97c);
+			/* padding: 50px 25px; */
+			padding: 4em 0;
+		}
+		.page-header h1, .page-header h2 {
+			width: 100%;
+			max-width: 1000px;
+			margin: 0 auto;
+			padding: 0 40px;
+			color: white;
+		}
+		.page-header h2 {
+			font-weight: normal;
+			color: #fbfbfb;
+		}
+		.page-body {
+			width: 100%;
+			max-width: 1000px;
+			margin: 0 auto;
+			padding: 20px 40px;
+		}
+		.image-block img {
+            max-width: 100%;
+            max-height: 100%
+        }
+
+	</style>
+</head>
+<body>
+	<div class="page-header">
+		<h1>Wat doet dit apparaatje?</h1>
+	</div>
+	<div class="page-body">
+
+        <div class="container">
+            
+            <div class="image-block">
+                <img src="device.jpg" width="20%"/>
+            </div>
+
+            <div class="text-block">
+                <p>Dit apparaatje wordt gebruikt voor een onderzoek van het <a href="https://windesheim.nl/energietransitie">lectoraat Energietransitie van hogeschool Windesheim</a>.</p>
+                <ul>
+                <li>Dit apparaatje wordt alleen gebruikt om te testen of het lukt om een verbinding via een Wi-Fi netwerk te maken en registreert en verstuurt elke 10 minuten een 'hartslag' naar de Twomes server. Dit zijn geen persoonsgegevens.</li>
+                <li>De <a href="https://github.com/energietransitie/twomes-generic-esp-firmware">firmware van dit apparaatje is open source beschikbaar</a>.</li>
+                </ul>
+                <p><i>Deze pagina is voor het laatst aangepast op 18 oktober 2022.</i></p>
+            </div>
+        </div>
+	</div>
+</body>
+</html>
